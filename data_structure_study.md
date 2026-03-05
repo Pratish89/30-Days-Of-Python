@@ -21,6 +21,18 @@ numbers[1] = 25          # [10, 25, 30, 40]
 - `remove(x)`, `pop()`, `pop(i)`, `clear()`
 - slicing: `items[start:stop:step]`
 
+**Operation examples:**
+```python
+fruits = ["apple", "banana"]
+fruits.append("mango")               # ['apple', 'banana', 'mango']
+fruits.extend(["orange", "kiwi"])   # ['apple', 'banana', 'mango', 'orange', 'kiwi']
+fruits.insert(1, "grape")            # ['apple', 'grape', 'banana', 'mango', 'orange', 'kiwi']
+
+fruits.remove("banana")              # removes first matching value
+last_item = fruits.pop()              # pops 'kiwi'
+first_two = fruits[:2]                # slicing -> ['apple', 'grape']
+```
+
 ---
 
 ## 2) Tuple
@@ -39,6 +51,16 @@ x, y = point             # unpacking
 **Common operations:**
 - Indexing/slicing: `t[0]`, `t[1:]`
 - `count(x)`, `index(x)`
+
+**Operation examples:**
+```python
+colors = ("red", "blue", "red", "green")
+first = colors[0]                     # 'red'
+tail = colors[1:]                     # ('blue', 'red', 'green')
+
+red_count = colors.count("red")      # 2
+blue_index = colors.index("blue")    # 1
+```
 
 ---
 
@@ -59,6 +81,20 @@ ids.add(4)
 - `add(x)`, `remove(x)`, `discard(x)`
 - `union(|)`, `intersection(&)`, `difference(-)`, `symmetric_difference(^)`
 
+**Operation examples:**
+```python
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+
+a.add(7)                              # {1, 2, 3, 4, 7}
+a.discard(2)                          # {1, 3, 4, 7}
+
+all_items = a | b                     # union -> {1, 3, 4, 5, 6, 7}
+common = a & b                        # intersection -> {3, 4}
+only_a = a - b                        # difference -> {1, 7}
+sym_diff = a ^ b                      # symmetric difference -> {1, 5, 6, 7}
+```
+
 ---
 
 ## 4) Dictionary
@@ -78,6 +114,20 @@ score = student.get("score")
 **Common operations:**
 - `get(key, default)`, `keys()`, `values()`, `items()`
 - `update({...})`, `pop(key)`, `del dict[key]`
+
+**Operation examples:**
+```python
+student = {"name": "Sara", "score": 95}
+
+student["grade"] = "A"               # add a key
+student.update({"score": 98})         # update existing key
+
+name = student.get("name")            # 'Sara'
+country = student.get("country", "N/A")
+
+pairs = list(student.items())          # [('name', 'Sara'), ('score', 98), ('grade', 'A')]
+removed = student.pop("grade")        # removes 'grade', returns 'A'
+```
 
 ---
 
@@ -111,4 +161,3 @@ score = student.get("score")
 3. Count word frequency in a sentence using a dictionary.
 4. Find common items between two lists using sets.
 5. Build a list of squares from 1 to 10.
-
