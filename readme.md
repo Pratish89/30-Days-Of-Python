@@ -161,17 +161,17 @@ Every contribution, big or small, makes a huge difference. Thank you for your su
 
 ## Welcome
 
-**Congratulations** for deciding to participate in a _30 days of Python_ programming challenge. In this challenge, you will learn everything you need to be a python programmer and the whole concept of programming. At the end of the challenge, you will get a _30DaysOfPython_ programming challenge certificate.
+**Congratulations** for deciding to participate in a _30 days of Python_ programming challenge. In this challenge, you will learn everything you need to be a python programmer and the whole concept of programming. In the end of the challenge you will get a _30DaysOfPython_ programming challenge certificate.
 
-If you would like to actively engage in the challenge, you may join the [30DaysOfPython challenge](https://t.me/ThirtyDaysOfPython) telegram group.  
+If you would like to actively engage in the challenge, you may join the [30DaysOfPython challenge](https://t.me/ThirtyDaysOfPython) telegram group.
 
 ## Introduction
 
-Python is a high-level programming language for general-purpose programming. It is an open source, interpreted, objected-oriented programming language. Python was created by a Dutch programmer, Guido van Rossum. The name of the Python programming language was derived from a British sketch comedy series, _Monty Python's Flying Circus_.  The first version was released on February 20, 1991. This 30 days of Python challenge will help you learn the latest version of Python, Python 3 step by step. The topics are broken down into 30 days, where each day contains several topics with easy-to-understand explanations, real-world examples, and many hands on exercises and projects.
+Python is a high-level programming language for general-purpose programming. It is an open source, interpreted, object-oriented programming language. Python was created by a Dutch programmer, Guido van Rossum. The name of the Python programming language was derived from a British sketch comedy series, *Monty Python's Flying Circus*.  The first version was released on February 20, 1991. This 30 days of Python challenge will help you learn the latest version of Python, Python 3 step by step. The topics are broken down into 30 days, where each day contains several topics with easy-to-understand explanations, real-world examples, and many hands on exercises and projects.
 
 This challenge is designed for beginners and professionals who want to learn python programming language. It may take 30 to 100 days to complete the challenge. People who actively participate in the telegram group have a high probability of completing the challenge.
 
-This challenge is easy to read, written in conversational English, engaging, motivating and at the same time, it is very demanding. You need to allocate much time to finish this challenge. If you are a visual learner, you may get the video lesson on <a href="https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw"> Washera</a> YouTube channel. You may start from [Python for Absolute Beginners video](https://youtu.be/OCCWZheOesI). Subscribe the channel, comment and ask questions on YouTube vidoes and be proactive, the author will eventually notice you.
+This challenge is easy to read, written in conversational English, engaging, motivating and at the same time, it is very demanding. You need to allocate much time to finish this challenge. If you are a visual learner, you may get the video lesson on <a href="https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw"> Washera</a> YouTube channel. You may start from [Python for Absolute Beginners video](https://youtu.be/OCCWZheOesI). Subscribe the channel, comment and ask questions on YouTube videos and be proactive, the author will eventually notice you.
 
 The author likes to hear your opinion about the challenge, share the author by expressing your thoughts about the 30DaysOfPython challenge. You can leave your testimonial on this [link](https://www.asabeneh.com/testimonials)
 
@@ -185,23 +185,23 @@ Python is used by various industries and companies (including Google). It has be
 ### Installing Python
 
 To run a python script you need to install python. Let's [download](https://www.python.org/) python.
-If your are a windows user. Click the button encircled in red.
+If your are a windows user, click the button encircled in red.
 
 [![installing on Windows](./images/installing_on_windows.png)](https://www.python.org/)
 
-If you are a macOS user. Click the button encircled in red.
+If you are a macOS user, click the button encircled in red.
 
 [![installing on Windows](./images/installing_on_macOS.png)](https://www.python.org/)
 
 To check if python is installed write the following command on your device terminal.
 
 ```shell
-python --version
+python3 --version
 ```
 
 ![Python Version](./images/python_versio.png)
 
-As you can see from the terminal, I am using _Python 3.7.5_ version at the moment. Your version of Python might be different from mine by but it should be 3.6 or above. If you mange to see the python version, well done. Python has been installed on your machine. Continue to the next section.
+As you can see from the terminal, I am using _Python 3.7.5_ version at the moment. Your version of Python might be different from mine by but it should be 3.6 or above. If you manage to see the python version, well done. Python has been installed on your machine. Continue to the next section.
 
 ### Python Shell
 
@@ -222,7 +222,7 @@ Let us write our very first script on the Python scripting shell.
 ![Python script on Python shell](./images/adding_on_python_shell.png)
 
 Well done, you wrote your first Python script on Python interactive shell. How do we close the Python interactive shell ?
-To close the shell, next to this symbol >> write **exit()** command and press Enter.
+To close the shell, next to this symbol >>> write **exit()** command and press Enter.
 
 ![Exit from python shell](./images/exit_from_shell.png)
 
@@ -244,17 +244,17 @@ Let us practice more how to use Python interactive shell. Go to your terminal or
 
 ![Python Scripting Shell](./images/opening_python_shell.png)
 
-The Python interactive shell is opened. Let us do some basic mathematical operations (addition, subtraction, multiplication, division, modulus,  exponential).
+The Python interactive shell is opened. Let us do some basic mathematical operations (addition, subtraction, multiplication, division, modulus,  exponentiation).
 
 Let us do some maths first before we write any Python code:
 
-- 2 + 3 is 5
-- 3 - 2 is 1
-- 3 \* 2 is 6
-- 3 / 2 is 1.5
-- 3 ** 2 is the same as 3 * 3
+- 2 + 3 = 5
+- 3 - 2 = 1
+- 3 \* 2 = 6
+- 3 / 2 = 1.5
+- 3 \*\* 2 = 3 x 3 = 9
 
-In python we have the following additional operations:
+In python, we have the following additional operations:
 
 - 3 % 2 = 1 => which means finding the remainder
 - 3 // 2 = 1 => which means removing the remainder
@@ -277,7 +277,7 @@ Before we move on to the next section, let us practice more on the Python intera
 
 ### Installing Visual Studio Code
 
-The Python interactive shell is good to try and test small script codes but it will not be for a big project. In real work environment, developers use different code editors to write codes. In this 30 days of Python programming challenge we will use visual studio code. Visual studio code is a very popular open source text editor. I am a fan of vscode and I would recommend to [download](https://code.visualstudio.com/) visual studio code, but if you are in favor of other editors, feel free to follow with what you have.
+The Python interactive shell is good to try and test small script codes but it will not be for a big project. In real work environment, developers use different code editors to write codes. In this 30 days of Python programming challenge, we will use Visual Studio Code. Visual Studio Code is a very popular open source text editor. I am a fan of vscode and I would recommend to [download](https://code.visualstudio.com/) visual studio code, but if you are in favor of other editors, feel free to follow with what you have.
 
 [![Visual Studio Code](./images/vscode.png)](https://code.visualstudio.com/)
 
@@ -296,7 +296,7 @@ Create a folder named 30DaysOfPython on your desktop. Then open it using visual 
 
 ![Opening a project](./images/opening_project.png)
 
-After opening it you will see shortcuts for creating files and folders inside of 30DaysOfPython project's directory. As you can see below, I have created the very first file, helloworld.py. You can do the same.
+After opening it, you will see shortcuts for creating files and folders inside of 30DaysOfPython project's directory. As you can see below, I have created the very first file, `helloworld.py`. You can do the same.
 
 ![Creating a python file](./images/helloworld.png)
 
@@ -405,8 +405,8 @@ A Python dictionary object is an unordered collection of data in a key value pai
 {
 'first_name':'Asabeneh',
 'last_name':'Yetayeh',
-'country':'Finland', 
-'age':250, 
+'country':'Finland',
+'age':250,
 'is_married':True,
 'skills':['JS', 'React', 'Node', 'Python']
 }
@@ -449,11 +449,11 @@ To check the data type of certain data/variable we use the **type** function. In
 
 First open your project folder, 30DaysOfPython. If you don't have this folder, create a folder name called 30DaysOfPython. Inside this folder, create a file called helloworld.py. Now, let's do what we did on python interactive shell using visual studio code.
 
-The Python interactive shell was printing without using **print** but on visual studio code to see our result we should use a built in function _print(). The _print()_ built-in function takes one or more arguments as follows _print('arument1', 'argument2', 'argument3')_. See the examples below.
+The Python interactive shell was printing without using **print** but on visual studio code to see our result we should use a built in function _print()_. The _print()_ built-in function takes one or more arguments as follows _print('arument1', 'argument2', 'argument3')_. See the examples below.
 
 **Example:**
 
-The file name is helloworld.py
+The file name is `helloworld.py`
 
 ```py
 # Day 1 - 30DaysOfPython Challenge
@@ -518,7 +518,7 @@ To run the python file check the image below. You can run the python file either
 ### Exercise: Level 3
 
 1. Write an example for different Python data types such as Number(Integer, Float, Complex), String, Boolean, List, Tuple, Set and Dictionary.
-2. Find an [Euclidian distance](https://en.wikipedia.org/wiki/Euclidean_distance#:~:text=In%20mathematics%2C%20the%20Euclidean%20distance,being%20called%20the%20Pythagorean%20distance.) between (2, 3) and (10, 8)
+2. Find an [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance#:~:text=In%20mathematics%2C%20the%20Euclidean%20distance,being%20called%20the%20Pythagorean%20distance.) between (2, 3) and (10, 8)
 
 🎉 CONGRATULATIONS ! 🎉
 
