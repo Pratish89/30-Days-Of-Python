@@ -1,0 +1,4 @@
+yfinance>=0.2.54
+python-dotenv>=1.0.1
+openai>=1.30.0
+pytest>=8.0.0
